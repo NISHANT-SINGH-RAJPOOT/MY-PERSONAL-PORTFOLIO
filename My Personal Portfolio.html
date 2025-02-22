@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/portfolio.html#home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio &amp; Resume</title>
+    
+<link rel="stylesheet" href="./My Personal Portfolio_files/styles.css"><link rel="stylesheet" href="./My Personal Portfolio_files/style.css"></head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#home">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#about">About</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#skills">Skills</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#projects">Projects</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Hi, I'm Nishant Rajpoot</h1>
+        <p>Cybersecurity Enthusiast | Web Developer</p>
+        <a href="http://127.0.0.1:5500/portfolio.html#contact" class="btn">Contact Me</a>
+    </section>
+
+    <section id="about">
+       <h2>About Me</h2>
+        <p>
+         I am Nishant Rajpoot from Patna in Bihar.
+            I am a B.Tech student specializing in Cybersecurity at Parul University.
+            Currently, I am expanding my skill set by learning various networking &amp; security tools ,programming 
+            and by pursuing global certifications in HTML and CSS which enhance my ability to secure web applications.
+            my goal is to developing a strong understanding of cyber threats and gaining the knowledge to identify and report 
+            potential Cybersecurity issues.
+        </p>
+        
+        
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <b><u>My technical expertise includes:<br></u></b><br>
+            <div ✔️osint<br="">
+            ✔️Programming &amp; Scripting – C, HTML &amp; CSS<br>
+            ✔️Networking &amp; Security Tools – Wireshark, Nmap, Maltego<br>
+            ✔️Networking<br>
+            ✔️Web Development Fundamentals (HTML, CSS,).<br>
+            ✔️Linux<br>
+            ✔️C language<br>
+            ✔️Cybersecurity Basics<br>
+            ✔️Wireshark and packet analysis<br>
+        </div></ul>
+    </section>
+
+
+
+
+    <hr>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+           <u><h3>Portfolio Website</h3></u>
+            <p>A responsive personal portfolio built with HTML and CSS.</p>
+        </div>
+        <div class="project">
+           <u> <h3>Basic Login Page</h3></u>
+            <p>Designed a modern login page using CSS.</p>
+        </div>
+    </section>
+
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: ns8294961218@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/Nishant Rajpoot</p>
+        <p>Instagram:@itz_nishant_rajpoot
+    </p></section>
+
+
+
+    <footer>
+        <p>© 2025 NISHANT RAJPOOT. All rights reserved.</p>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+</body></html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-align: center;
+    vertical-align: left;
+}
+
+header {
+    background: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    body {
+        background-image: url("https://www.google.com/imgres?q=css%20background%20image%20white%20dotted&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fthumb_back%2Ffh260%2Fbackground%2F20210729%2Fpngtree-off-white-halftone-background-with-dots-and-gradient-lines-image_754415.jpg&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fwhite-dot&docid=yhTQHxq3GA8ZsM&tbnid=C0Mk9IQ4nMM2TM&vet=12ahUKEwiEieiG4dKLAxVDd2wGHSPAJH0QM3oFCIIBEAA..i&w=861&h=404&hcb=2&ved=2ahUKEwiEieiG4dKLAxVDd2wGHSPAJH0QM3oFCIIBEAA");
+        background-color: #cccccc;
+       }
+    padding: 80px 20px;
+}
+
+#home {
+    background: #007bff;
+    color: white;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about {
+    background: #d8d4e9;
+}
+
+
+#skills {
+    background: #d5ecea;
+}
+
+#projects {
+    background: #d5ecea;
+}
+
+#contact {
+    background: #d5ecea;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px 0;
+}
